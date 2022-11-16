@@ -30,4 +30,5 @@ jobs:
           git add .
           git commit -m "generated"
           git push
+          sleep 10
       - uses: peter-evans/close-issue@v2
